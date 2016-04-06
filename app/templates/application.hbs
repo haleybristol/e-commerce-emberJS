@@ -1,3 +1,22 @@
-<h2 id="title">Welcome to Ember</h2>
+<div class="jumbotron">
+  <nav>
 
-{{outlet}}
+    &nbsp; &nbsp; &nbsp;{{#link-to 'index'}}Home{{/link-to}}
+
+    &nbsp;{{#link-to 'store'}}Store{{/link-to}}
+
+    &nbsp; <a href="#"><i class="fa fa-facebook"></i></a>
+
+    &nbsp; <a href="#"><i class="fa fa-camera-retro"></i></a>
+
+    &nbsp; <a href="#"><i class="fa fa-tumblr-square"></i></a>
+
+    {{#link-to 'cart'}}<i class="fa fa-shopping-cart"></i>
+    {{/link-to}}
+  </nav>
+  <h1 id="title">No Friends Club</h1>
+</div>
+
+<div class="container">
+  {{outlet}}
+</div>
