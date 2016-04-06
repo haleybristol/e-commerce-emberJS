@@ -5,11 +5,13 @@ export default Ember.Component.extend({
   total: Ember.computed('shoppingCart.items.length', function() {
     var costTotal = 0;
     var shoppingCart = this.get('shoppingCart');
+
     shoppingCart.items.forEach(function(item) {
     costTotal += item.get('cost');
-  });
-  return costTotal;
-}),
+    });
+    console.log(shoppingCart.items)
+    return costTotal
+  }),
   actions: {
     remove(item){
       this.get("items").removeObject(item);

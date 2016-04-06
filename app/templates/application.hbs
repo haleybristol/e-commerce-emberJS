@@ -1,18 +1,22 @@
 <div class="jumbotron">
   <nav>
+    <div class="iconz">
+      {{#link-to 'index'}}Home{{/link-to}}
 
-    &nbsp; &nbsp; &nbsp;{{#link-to 'index'}}Home{{/link-to}}
+      &nbsp;{{#link-to 'store'}}Store{{/link-to}}
 
-    &nbsp;{{#link-to 'store'}}Store{{/link-to}}
+      &nbsp; <a href="#"><i class="fa fa-facebook"></i></a>
 
-    &nbsp; <a href="#"><i class="fa fa-facebook"></i></a>
+      &nbsp; <a href="#"><i class="fa fa-camera-retro"></i></a>
 
-    &nbsp; <a href="#"><i class="fa fa-camera-retro"></i></a>
+      &nbsp; <a href="#"><i class="fa fa-tumblr-square"></i></a>
+    </div>
 
-    &nbsp; <a href="#"><i class="fa fa-tumblr-square"></i></a>
-
-    {{#link-to 'cart'}}<i class="fa fa-shopping-cart"></i>
-    {{/link-to}}
+    <div class="big">
+      <div class="container super cart">
+        {{display-cart}}
+      </div>
+    </div>
   </nav>
   <h1 id="title">No Friends Club</h1>
 </div>

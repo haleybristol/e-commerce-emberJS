@@ -1,4 +1,5 @@
 <div class="container">
+  <div class="col-xs-6">
   <h1>{{product.title}}</h1>
   <img src={{product.image}}>
   <br>
@@ -6,4 +7,6 @@
   <h4>Price: ${{product.cost}}</h4>
   <button {{action 'addToCart' product}}>Add to Cart</button>
   <button {{action 'remove' product}}>Remove from Cart</button>
+  <hr>
+</div>
 </div>

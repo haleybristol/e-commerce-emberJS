@@ -1,8 +1,5 @@
-<div class="big">
-  <div class="container super cart">
-  {{display-cart}}
-  </div>
+<div class="row">
+  {{#each model as |product|}}
+    {{product-tile product=product}}
+  {{/each}}
 </div>
-{{#each model as |product|}}
-  {{product-tile product=product}}
-{{/each}}
