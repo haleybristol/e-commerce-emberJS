@@ -1,0 +1,17 @@
+{"products": [{
+    "title": "The Britney T",
+    "image": "http://i690.photobucket.com/albums/vv265/5254kali/britney-spears-bald-400a030207-1.jpg",
+    "description": "Britney circa 2007 was most definitely a member of NFC" ,
+    "cost": 20,
+  }, {
+    "title": "The Shkreli T",
+    "image": "http://www.thedailysheeple.com/wp-content/uploads/2015/12/martin-shkreli.png",
+    "description": "Biggest D Bag of 2015? Questionable. But it ranks Martin Shkreli high on our list" ,
+    "cost": 20,
+    }, {
+    "title": "The Kenny T",
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c4/KennyPowers.jpg",
+    "description": "Kenny's a loveable dick. But definitely has no friends" ,
+    "cost": 20,
+    }]
+}
