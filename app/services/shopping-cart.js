@@ -9,6 +9,7 @@ export default Ember.Service.extend({
 
   remove(item) {
     this.get('items').removeObject(item);
+    console.log("hello haley");
   },
 
 });

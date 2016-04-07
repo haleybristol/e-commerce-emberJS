@@ -1,6 +1,12 @@
 {{#each shoppingCart.items as |item|}}
 <div class="cart-row">
 <br>
-<img class="cart-img" src={{item.image}}> - {{item.title}}: ${{item.cost}} -- quantity:
+  <div class="check-out">
+    <img class="cart-img" src={{item.image}}>{{item.title}}
+    <span>${{item.cost}}</span>
+    <span class="quantity">{{input id=item.id placeholder="1"}}</span>
+    <span>total: ${{item.cost}}</span>
+    <button class="delete-item" {{action 'remove' item}}>x</button>
+  </div>
 </div>
 {{/each}}
