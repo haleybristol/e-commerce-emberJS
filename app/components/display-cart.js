@@ -9,8 +9,8 @@ export default Ember.Component.extend({
     shoppingCart.items.forEach(function(item) {
     costTotal += item.get('cost');
     });
-    console.log(shoppingCart.items)
-    return costTotal
+    console.log(shoppingCart.items);
+    return costTotal;
   }),
   actions: {
     remove(item){

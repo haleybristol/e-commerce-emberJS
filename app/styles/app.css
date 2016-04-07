@@ -1,5 +1,4 @@
 
-
 .cart {
   background: peachpuff;
   padding-top: 20px;
@@ -28,7 +27,6 @@ nav {
 a {
   margin-left: 20px;
   color: white;
-
 }
 
 .jumbotron {
@@ -46,10 +44,34 @@ a {
      1px 1px 0 #000;
 }
 
-#ember495 {
+.store {
   margin-top: 200px;
 }
 
 img {
   width: 400px;
 }
+
+.home, .home a {
+  margin-top: 300px;
+  text-align: center;
+  color: black;
+}
+.store-link a {
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: peachpuff;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.store-link a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+/*.store-link a:active {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}*/
