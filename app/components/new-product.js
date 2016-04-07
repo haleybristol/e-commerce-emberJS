@@ -11,7 +11,7 @@ export default Ember.Component.extend({
         title: this.get('title'),
         image: this.get('image'),
         description: this.get('description'),
-        cost: parseInt(this.get('cost'))
+        cost: this.get('cost')
       };
       this.set('addNewProduct', false);
       this.sendAction('saveProduct', params);

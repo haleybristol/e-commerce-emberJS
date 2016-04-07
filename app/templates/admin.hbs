@@ -2,3 +2,10 @@
 <div class="home">
 {{new-product saveProduct="saveProduct"}}
 </div>
+<div class="store">
+  {{#each model as |product|}}
+    <div class="product-card">
+    {{admin-tile update="update" destroyProduct="destroyProduct" product=product}}
+    </div>
+  {{/each}}
+</div>

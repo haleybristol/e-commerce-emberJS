@@ -3,6 +3,4 @@
 <br>
 <h3>{{product.description}}</h3>
 <h4>Price: ${{product.cost}}</h4>
-<button {{action 'addToCart' product}}>Add to Cart</button>
-<button {{action 'remove' product}}>Remove from Cart</button>
-<hr>
+{{update-product update="update" destroyProduct="destroyProduct" product=product}}

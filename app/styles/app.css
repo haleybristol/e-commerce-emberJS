@@ -46,10 +46,12 @@ a {
 
 .store {
   margin-top: 200px;
+  display: flex;
 }
 
 img {
-  width: 400px;
+  width: 300px;
+  height: 400px;
 }
 
 .home, .home a {
@@ -59,11 +61,11 @@ img {
 }
 .store-link a {
   border: 2px solid black;
-  border-radius: 50px;
+  border-radius: 5px;
   background-color: peachpuff;
   padding-left: 10px;
   padding-right: 10px;
-
+  width: 500px;
 }
 .store-link a:hover {
   text-decoration: none;
@@ -75,3 +77,22 @@ img {
   background-color: black;
   color: white;
 }*/
+button.store-link {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: peachpuff;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 300px;
+  font-size: 2em;
+}
+
+.product-card {
+  margin: 20px;
+  width: 550px;
+  height: 1000px;
+}
+
+.product-card h1 {
+  text-align: center;
+}

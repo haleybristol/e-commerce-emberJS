@@ -1,5 +1,7 @@
 <div class="store">
   {{#each model as |product|}}
-    {{product-tile product=product}}
+    <div class="product-card">
+      {{product-tile product=product}}
+    </div>
   {{/each}}
 </div>
