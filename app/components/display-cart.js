@@ -9,7 +9,6 @@ export default Ember.Component.extend({
     shoppingCart.items.forEach(function(item) {
     costTotal += parseInt(item.get('cost'));
     });
-    console.log(shoppingCart.items);
     return costTotal;
   }),
   actions: {

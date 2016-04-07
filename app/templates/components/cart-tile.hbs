@@ -1,0 +1,6 @@
+{{#each shoppingCart.items as |item|}}
+<div class="cart-row">
+<br>
+<img class="cart-img" src={{item.image}}> - {{item.title}}: ${{item.cost}} -- quantity:
+</div>
+{{/each}}

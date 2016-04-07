@@ -47,6 +47,7 @@ a {
 .store {
   margin-top: 200px;
   display: flex;
+
 }
 
 img {
@@ -88,11 +89,35 @@ button.store-link {
 }
 
 .product-card {
-  margin: 20px;
+  margin: 0 20px;
   width: 550px;
-  height: 1000px;
+  height: 580px;
+  border: 1px solid black;
+  padding: 20px;
 }
 
 .product-card h1 {
   text-align: center;
+}
+
+.product-card button {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: peachpuff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.product-info {
+  margin-top: -30px;
+}
+.cart-row {
+    border-bottom: 1px dashed black;
+}
+.cart-img{
+  width: 100px;
+  height: 100px;
+}
+.view-cart {
+  border: 2px solid black;
 }

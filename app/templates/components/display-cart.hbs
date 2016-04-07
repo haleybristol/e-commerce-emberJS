@@ -1,8 +1,2 @@
-{{#each shoppingCart.items as |item|}}
-
-  {{item.title}} -- ${{item.cost}}
-  <br>
-{{/each}}
-
-
-<h4>Total Cost: ${{total}}</h4>
+{{#link-to 'cart'}}<h4>Cart: {{shoppingCart.items.length}} item(s)</h4>
+<h4>Total Cost: ${{total}}</h4>{{/link-to}}
