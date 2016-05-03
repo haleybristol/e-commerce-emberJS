@@ -1,7 +1,6 @@
 # No-friends-club
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a web application for an e-commerce site that sells clothing. It uses ember services to implement a functional shopping cart. 
 
 ## Prerequisites
 
